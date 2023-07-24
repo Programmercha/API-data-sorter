@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="radiozone">
+        <input class="inputs" type="radio" value="true" onchange="getValue(this)" name="list" id="true">
+        <label for="true">Complated</label>
+        <input class="inputs" type="radio" value="false" onchange="getValue(this)" name="list" id="false">
+        <label for="false">Not completed</label>
+        <input class="inputs" type="radio" value="all" onchange="getValue(this)" name="list" id="all">
+        <label for="all">All</label>
+    </div>
+    <ul>
+    </ul>
+    <script src="./js/app.js"></script>
+</body>
+
+</html>
